@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Галерея для сайта на JavaScript</title>
+</head>
+<body>
+    
+    <div onmouseover="btn_show()"  onmouseout ="btn_show()" class="wrapper">
+        <script src="main.js"></script>
+    <div id="left" onclick="image(0)" class="left_right">
+    <img src="img/left.png" alt=""></div>
+    <div id="right" onclick="image(1)" class="left_right">
+        <img src="img/right.png" alt=""></div>
+    </div>   
+    <center>
+        <p id="num_img"></p>
+    </center>    
+    <center>
+        <span class="myButton" onclick="image(0)">&lt;</span>
+        <span class="myButton" onclick="image(1)">&gt;</span>
+    </center>    
+    
+
+     
+</body>
+</html>
